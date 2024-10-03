@@ -359,4 +359,8 @@ compute_features_group_opts = [
     cfg.BoolOpt('vencrypt',
                 default=True,
                 help="verify vnc console tls."),
+    cfg.BoolOpt('image_multibackend',
+                default=False,
+                help='Multiple image backends are supported in the '
+                     'deployment'),
 ]
